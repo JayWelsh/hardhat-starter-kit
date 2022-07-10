@@ -39,6 +39,18 @@ This common Javascript [module](https://github.com/motdotla/dotenv) made by [Mot
 
 In-depth usage instructions on [repo](https://github.com/motdotla/dotenv) | [npm](https://www.npmjs.com/package/dotenv)
 
+## @openzeppelin/contracts
+
+This collection of [Solidity Contracts](https://github.com/OpenZeppelin/openzeppelin-contracts) curated and maintained by the team at [OpenZeppelin](https://www.openzeppelin.com/) often come in handy when building new contracts, as they handle common operations in a safety-checked way.
+
+These can be imported in the following way within new Solidity files:
+
+```solidity
+import "@openzeppelin/contracts/access/Ownable.sol";
+```
+
+In-depth usage instructions on [docs](https://docs.openzeppelin.com/contracts/4.x/) | [repo](https://github.com/OpenZeppelin/openzeppelin-contracts) | [npm](https://www.npmjs.com/package/@openzeppelin/contracts)
+
 ## Official Hardhat Commands
 
 ```shell
